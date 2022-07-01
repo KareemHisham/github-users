@@ -1,0 +1,16 @@
+section.dashboard section.users .user-content,
+section.dashboard section.users .followers-content {
+  background-color: var(--white);
+  padding: 20px;
+  height: 260px;
+  position: relative;
+}
+section.dashboard section.users img {
+  max-width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+section.dashboard section.users a {
+  color: var(--light-blue);
+  font-size: 14px;
+}

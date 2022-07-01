@@ -1,0 +1,44 @@
+section.dashboard section.users .user-content .header .left-side {
+  display: flex;
+  align-items: center;
+}
+section.dashboard
+  section.users
+  .user-content
+  .header
+  .left-side
+  .details
+  .userName {
+  color: var(--darkGrey);
+}
+section.dashboard section.users .user-content .header button {
+  border: 1px solid var(--light-blue);
+  background: transparent;
+  border-radius: 20px;
+  padding: 0px 20px;
+  color: var(--light-blue);
+}
+section.dashboard section.users .user-content .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section.dashboard section.users .user-content .address-info ul li {
+  display: flex;
+  align-items: center;
+}
+section.dashboard section.users .user-content .address-info ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+section.dashboard section.users .user-content .address-info ul li .icon {
+  color: var(--clr-grey-2);
+}
+section.dashboard
+  section.users
+  .user-content
+  .address-info
+  ul
+  li
+  span:nth-child(2) {
+  font-size: 14px;
+}

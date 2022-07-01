@@ -1,0 +1,28 @@
+section.form {
+  border: 1px solid #ccc;
+  width: 600px;
+  margin: 30px auto;
+  padding: 15px;
+}
+section.form .head .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.form .head .title .icon {
+  font-size: 40px;
+  margin-right: 5px;
+}
+section.form .head .title span {
+  font-weight: 700;
+  font-size: 20px;
+}
+section.form form .form-control {
+  box-shadow: none;
+}
+section.dashboard .loading-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+}

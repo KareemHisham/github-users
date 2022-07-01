@@ -1,0 +1,22 @@
+section.dashboard nav {
+  background-color: var(--white);
+  margin-bottom: 30px;
+}
+section.dashboard nav .nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.dashboard nav .nav-bar img {
+  max-width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+section.dashboard nav .nav-bar .head {
+  font-size: 14px;
+}
+section.dashboard nav .nav-bar .head .name {
+  font-size: 16px;
+  font-weight: 700;
+}

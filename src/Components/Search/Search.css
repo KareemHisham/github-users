@@ -1,0 +1,18 @@
+section.dashboard section.search-bar .alert {
+  padding: 5px !important;
+  width: 50%;
+}
+section.dashboard section.search-bar form {
+    display: flex;
+}
+section.dashboard section.search-bar form .form-control {
+  box-shadow: none;
+}
+section.dashboard section.search-bar form .input-group .search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 99;
+}

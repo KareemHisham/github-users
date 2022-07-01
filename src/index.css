@@ -1,0 +1,33 @@
+/* Global Style */
+:root {
+  --mainColor: #ff5b5b;
+  --white: #fff;
+  --darkBG: #f1f5f8;
+  --darkGrey: #afafaf;
+  --light-blue: #239ffd;
+  --clr-grey-2: hsl(211, 39%, 23%);
+}
+body {
+  font-family: "Poppins", sans-serif !important;
+  background-color: var(--darkBG) !important;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Common Style */
+section.login-page,
+section.not-found {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section.dashboard nav,
+section.dashboard .section.search-bar,
+section.dashboard section.info,
+section.dashboard section.users,
+section.dashboard section.charts {
+  padding: 10px 0;
+}

@@ -1,0 +1,11 @@
+section.not-found {
+  background-color: #1b2430;
+  color: #fff;
+}
+section.not-found h1 {
+  font-size: 7rem;
+  font-weight: 700;
+}
+section.not-found p {
+  font-size: 25px;
+}

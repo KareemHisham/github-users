@@ -1,0 +1,37 @@
+section.dashboard section.info .item-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: var(--white);
+  border-radius: 8px;
+  padding: 10px;
+}
+section.dashboard section.info .item-wrapper .icon {
+  font-size: 20px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.dashboard section.info .item-wrapper .icon.pink {
+  background-color: rgb(255 192 203 / 30%);
+}
+section.dashboard section.info .item-wrapper .icon.green {
+  background-color: rgb(0 128 0 / 30%);
+}
+section.dashboard section.info .item-wrapper .icon.purple {
+  background-color: rgb(128 0 128 / 30%);
+}
+section.dashboard section.info .item-wrapper .icon.yellow {
+  background-color: rgb(255 255 0 / 30%);
+}
+section.dashboard section.info .item-wrapper .item-content .count {
+  font-weight: 600;
+  font-size: 20px;
+}
+section.dashboard section.info .item-wrapper .item-content .title {
+  color: var(--darkGrey);
+  font-weight: 500;
+}

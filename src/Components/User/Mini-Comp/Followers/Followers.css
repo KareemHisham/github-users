@@ -1,0 +1,15 @@
+section.dashboard section.users .followers-content {
+    overflow-y: scroll;
+}
+section.dashboard section.users .followers-content ul li {
+  display: flex;
+  align-items: center;
+}
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    width: 5px;
+    background-color: var(--clr-grey-2);
+    border-radius: 10px;
+}
