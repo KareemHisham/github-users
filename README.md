@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Additional Info
+In order for routing to work on netlify, redirects was added to the public folder
+- \_redirects file in public
+
+/*    /index.html   200
+
 ## Available Scripts
 
 In the project directory, you can run:
